@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
+import Video from './Video';
 import reportWebVitals from './reportWebVitals';
+import Vimeo from './Vimeo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <Video />
+    {/* <Vimeo/> */}
   </React.StrictMode>
 );
 
